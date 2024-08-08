@@ -1,2 +1,2 @@
-# ENPM702_FALL2024
+# enpm702_fall2024
 Central repository for C++ and ROS
