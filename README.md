@@ -20,6 +20,6 @@ The following software MUST be installed for this lecture:
 
 The reading material covers basic types, selections, and iterations.
 
-# my_settings_file
+# my_vscode_files
 
-This folder contains my custom `settings.json` file. Students can freely reuse this file if needed.
+This folder contains my custom `.vscode` files. Students are free to reuse them.
