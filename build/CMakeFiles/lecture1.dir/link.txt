@@ -1,1 +1,0 @@
-/usr/bin/g++ -g CMakeFiles/lecture1.dir/lecture1/src/lecture1.cpp.o -o lecture1 
