@@ -15,3 +15,7 @@ The following software MUST be installed for this lecture:
 
 - A GitHub account with an SSH key configured is essential. You must follow along, and I can't stress enough how important it is to have a GitHub account with an SSH key set up.
 - Visual Studio Code.
+
+# Reading Material
+
+The reading material covers basic types, selections, and iterations.
