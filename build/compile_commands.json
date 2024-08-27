@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/zeid/teaching/fall2024/code/enpm702_fall2024/build",
+  "command": "/usr/bin/g++   -g -std=gnu++17 -o CMakeFiles/lecture1.dir/lecture1/src/lecture1.cpp.o -c /home/zeid/teaching/fall2024/code/enpm702_fall2024/lecture1/src/lecture1.cpp",
+  "file": "/home/zeid/teaching/fall2024/code/enpm702_fall2024/lecture1/src/lecture1.cpp",
+  "output": "CMakeFiles/lecture1.dir/lecture1/src/lecture1.cpp.o"
+}
+]
