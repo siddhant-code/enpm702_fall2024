@@ -16,5 +16,5 @@
  * @return int 0 means code exited properly
  */
 int main() {
-    std::cout << "Hello worlds\n";
+    std::cout << "Hello world\n";
 }
