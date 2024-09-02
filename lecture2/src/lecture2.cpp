@@ -98,7 +98,7 @@ int main() {
     //</> 7
     //=====================
     // std::cout << "Type\t\tSize (bytes)\tMin Value\t\tMax Value\n";
-    // std::cout << "----------------------------------------------------------\n";
+    // std::cout << "--------------------------------------------------------------------\n";
 
     // std::cout << "char\t\t" << sizeof(char)
     //           << "\t\t" << int(std::numeric_limits<char>::min())
@@ -114,48 +114,56 @@ int main() {
 
     // std::cout << "unsigned int\t" << sizeof(unsigned int)
     //           << "\t\t" << std::numeric_limits<unsigned int>::min()
-    //           << "\t\t" << std::numeric_limits<unsigned int>::max() << '\n';
+    //           << "\t\t\t" << std::numeric_limits<unsigned int>::max() << '\n';
 
     // std::cout << "short\t\t" << sizeof(short)
     //           << "\t\t" << std::numeric_limits<short>::min()
-    //           << "\t\t" << std::numeric_limits<short>::max() << '\n';
+    //           << "\t\t\t" << std::numeric_limits<short>::max() << '\n';
 
     // std::cout << "unsigned short\t" << sizeof(unsigned short)
     //           << "\t\t" << std::numeric_limits<unsigned short>::min()
-    //           << "\t\t" << std::numeric_limits<unsigned short>::max() << '\n';
+    //           << "\t\t\t" << std::numeric_limits<unsigned short>::max() << '\n';
 
     // std::cout << "long\t\t" << sizeof(long)
     //           << "\t\t" << std::numeric_limits<long>::min()
-    //           << "\t\t" << std::numeric_limits<long>::max() << '\n';
+    //           << "\t" << std::numeric_limits<long>::max() << '\n';
 
     // std::cout << "unsigned long\t" << sizeof(unsigned long)
     //           << "\t\t" << std::numeric_limits<unsigned long>::min()
-    //           << "\t\t" << std::numeric_limits<unsigned long>::max() << '\n';
+    //           << "\t\t\t" << std::numeric_limits<unsigned long>::max() << '\n';
 
     // std::cout << "long long\t" << sizeof(long long)
     //           << "\t\t" << std::numeric_limits<long long>::min()
-    //           << "\t\t" << std::numeric_limits<long long>::max() << '\n';
+    //           << "\t" << std::numeric_limits<long long>::max() << '\n';
 
-    // std::cout << "unsigned long long\t" << sizeof(unsigned long long)
+    // std::cout << "ull\t\t" << sizeof(unsigned long long)
     //           << "\t\t" << std::numeric_limits<unsigned long long>::min()
-    //           << "\t\t" << std::numeric_limits<unsigned long long>::max() << '\n';
+    //           << "\t\t\t" << std::numeric_limits<unsigned long long>::max() << '\n';
 
     //</> 8-1
     //=====================
-    // std::cout << std::fixed << std::setprecision(1);
-    // std::cout << "Type\t\tSize (bytes)\tMin Value\t\t\tMax Value\n";
-    // std::cout << "---------------------------------------------------------------\n";
+    // std::cout << std::fixed << std::scientific << std::setprecision(10);
+    // // std::scientific -- Display the result in scientific notation
+    // // std::fixed and std::precision -- By combining std::fixed with std::setprecision, 
+    // // you can control the number of decimal places that are shown. 
+    // // For example, std::setprecision(2) with std::fixed will display the number with 
+    // // exactly two digits after the decimal point.
+    // std::cout << "Type\t\tSize (bytes)\tMin Value\t\t\tLowest Value\t\t\tMax Value\n";
+    // std::cout << "--------------------------------------------------------------------------------------------------------\n";
 
     // std::cout << "float\t\t" << sizeof(float)
     //           << "\t\t" << std::numeric_limits<float>::min()
+    //           << "\t\t" << std::numeric_limits<float>::lowest()
     //           << "\t\t" << std::numeric_limits<float>::max() << '\n';
 
     // std::cout << "\ndouble\t\t" << sizeof(double)
     //           << "\t\t" << std::numeric_limits<double>::min()
+    //           << "\t\t" << std::numeric_limits<double>::lowest()
     //           << "\t\t" << std::numeric_limits<double>::max() << '\n';
 
     // std::cout << "\nlong double\t" << sizeof(long double)
     //           << "\t\t" << std::numeric_limits<long double>::min()
+    //           << "\t\t" << std::numeric_limits<long double>::lowest()
     //           << "\t\t" << std::numeric_limits<long double>::max() << '\n';
 
     //</> 8-2
