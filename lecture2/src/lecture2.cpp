@@ -64,9 +64,9 @@ int main() {
 
     //</> 2
     //=====================
-     int number = 20;
-     std::cout << sizeof(number) << '\n'; // 4 bytes on my machine
-     std::cout << sizeof(int) << '\n';    // 4 bytes on my machine
+    //  int number = 20;
+    //  std::cout << sizeof(number) << '\n'; // 4 bytes on my machine
+    //  std::cout << sizeof(int) << '\n';    // 4 bytes on my machine
 
     //</> 3
     //=====================
