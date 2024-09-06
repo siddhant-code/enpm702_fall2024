@@ -26,6 +26,14 @@ The reading material covers basic types, selections, and iterations.
 
 # Lecture 5: Smart Pointers
 
+# Lecture 6: OOP (Part 1)
+
+# Lecture 7: OOP (Part 2)
+
+# Lecture 8: OOP (Part 3)
+
 # my_vscode_files
 
 This folder contains my custom `.vscode` files. Students are free to reuse them.
+
+# test
