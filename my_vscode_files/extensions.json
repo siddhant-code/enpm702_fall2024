@@ -27,5 +27,6 @@
         "jonathanharty.gruvbox-material-icon-theme", // Gruvbox Material Icon
         "gruntfuggly.todo-tree", //todo tree
         "leodevbro.blockman", // Blockman
+        "sainnhe.gruvbox-material"
 	]
 }
