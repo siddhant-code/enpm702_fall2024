@@ -24,6 +24,8 @@ The reading material covers basic types, selections, and iterations.
 
 # Lecture 4: Functions
 
+# Lecture 5: Smart Pointers
+
 # my_vscode_files
 
 This folder contains my custom `.vscode` files. Students are free to reuse them.
