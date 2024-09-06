@@ -21,6 +21,7 @@ The following software MUST be installed for this lecture:
 The reading material covers basic types, selections, and iterations.
 
 # Lecture 3: Pointers
+TODO
 
 # my_vscode_files
 
