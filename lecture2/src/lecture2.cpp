@@ -23,10 +23,10 @@
 //</> 33, 34, 35
 //=====================
 // // namespace MyNamespace
-// namespace MyNamespace {
-// int x{3};
-// int y{4};
-// }  // end namespace MyNamespace
+namespace MyNamespace {
+int x{3};
+int y{4};
+}  // end namespace MyNamespace
 
 //</> 34
 //=====================
@@ -439,8 +439,8 @@ int main() {
 
     //</> 33
     //=====================
-    // std::cout << MyNamespace::x << '\n';  // 3
-    // std::cout << MyNamespace::y << '\n';  // 4
+    std::cout << MyNamespace::x << '\n';  // 3
+    std::cout << MyNamespace::y << '\n';  // 4
 
     //</> 34
     //=====================
